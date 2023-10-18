@@ -58,7 +58,7 @@ public class Main {
             rootElement.appendChild(recordElement);
 
             // Write the content into XML file
-            writeToFile(doc, "userDetails.xml");
+            writeToFile(doc, "UserDetails.xml");
 
             System.out.println("Data written to XML successfully!");
 
