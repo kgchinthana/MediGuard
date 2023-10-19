@@ -4,10 +4,10 @@ import java.security.NoSuchAlgorithmException;
 
 public class HashPasswordMD5 {
     private String password;
-    private  String hashPassword;
+    private String hashPassword;
 
     public void setPassword(String password) throws NoSuchAlgorithmException {
-        this.password=password;
+        this.password = password;
         hashPassword();
     }
 
@@ -21,7 +21,7 @@ public class HashPasswordMD5 {
             sb.append(String.format("%02x", b));
         }
 
-        hashPassword= sb.toString();
+        hashPassword = sb.toString();
 
     }
 
